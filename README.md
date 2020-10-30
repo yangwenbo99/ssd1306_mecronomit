@@ -23,6 +23,10 @@ The function `put_text(row, text, init_pos=0)` put `text` onto to the `row`-th r
 
 The function `add_text()` is an adapter for those who use the method with the same name from <https://github.com/fizban99/microbit_ssd1306>
 
+## Notes
+
+Clear the screen before you put any text.  It doesn't matter if you want to override some characters using other character, but you should not try to override images by characters.
+
 
 ## Demo
 
